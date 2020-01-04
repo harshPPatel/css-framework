@@ -1,4 +1,6 @@
-$container-size: 768px;
+@import "./variables.scss";
+@import "./alert.scss";
+@import "./buttons.scss";
 
 body {
   max-width: $container-size;
