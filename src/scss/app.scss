@@ -1,0 +1,15 @@
+@import './variables.scss';
+@import './alert.scss';
+@import './badges.scss';
+@import './buttons.scss';
+@import './cards.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: $container-width;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
