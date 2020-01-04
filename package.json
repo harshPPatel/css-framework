@@ -1,0 +1,24 @@
+{
+  "name": "css-framework",
+  "version": "1.0.0",
+  "description": "Simple Css framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve src/*.html --open",
+    "build": "parcel build src/*.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshPPatel/css-framework.git"
+  },
+  "author": "harshPPatel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshPPatel/css-framework/issues"
+  },
+  "homepage": "https://github.com/harshPPatel/css-framework#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.24.2"
+  }
+}
