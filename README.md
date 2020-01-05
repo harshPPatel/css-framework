@@ -40,7 +40,7 @@ git merge master
 * push changes to remote
 
 ```shell
-git push origin component-branch-name
+git push --set-upstream origin component-branch-name
 ```
 component-branch-name is the same name of the branch you are currently working
 
