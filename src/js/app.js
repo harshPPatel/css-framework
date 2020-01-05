@@ -1,1 +1,2 @@
-console.log('Hello World');
+// Alert JS Code
+import './alert';
