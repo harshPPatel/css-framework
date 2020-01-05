@@ -20,7 +20,7 @@ nav.breadcrumb {
 
       // Adding '/' after all list items except last one
       &:not( :last-of-type )::after {
-        content: '/';
+        content: $breadcrumb-divider;
         display: block;
         position: absolute;
         top: 0;
