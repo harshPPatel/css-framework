@@ -2,6 +2,7 @@
 @import './alert.scss';
 @import './badges.scss';
 @import './buttons.scss';
+@import './breadcrumbs.scss';
 
 * {
   box-sizing: border-box;
@@ -11,4 +12,5 @@ body {
   max-width: $container-width;
   margin: 0 auto;
   font-family: sans-serif;
+  color: $text-color;
 }
