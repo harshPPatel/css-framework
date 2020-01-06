@@ -1,11 +1,8 @@
 let textArea = document.getElementById('text-area');
 let okButton = document.getElementById('ok-button');
-let paragraph = document.getElementById('text-area');
+
+textArea.style.display = 'block';
 
 okButton.addEventListener('click', function() {
-    textArea.innerText = 'Button clicked!';
+    textArea.style.display = 'none';
 });
-
-//console.log('hello from alert.js');
-
-
